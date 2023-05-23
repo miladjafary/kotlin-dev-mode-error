@@ -295,19 +295,6 @@
         <quarkus.package.type>native</quarkus.package.type>
       </properties>
     </profile>
-    <profile>
-      <id>dd-civisibility</id>
-      <properties>
-        <dd.java.agent.arg>-javaagent:${settings.localRepository}/com/datadoghq/dd-java-agent/${dd-java-agent.version}/dd-java-agent-${dd-java-agent.version}.jar -Ddd.service=payment-service -Ddd.civisibility.enabled=true</dd.java.agent.arg>
-      </properties>
-      <dependencies>
-        <dependency>
-          <groupId>com.datadoghq</groupId>
-          <artifactId>dd-java-agent</artifactId>
-          <version>1.4.0</version>
-          <scope>provided</scope>
-        </dependency>
-      </dependencies>
-    </profile>
+
   </profiles>
 </project>
