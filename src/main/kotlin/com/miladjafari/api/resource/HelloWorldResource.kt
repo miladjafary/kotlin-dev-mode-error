@@ -1,4 +1,4 @@
-package com.goflink.api.resource
+package com.miladjafari.api.resource
 
 import jakarta.ws.rs.GET
 import jakarta.ws.rs.Path
